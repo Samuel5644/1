@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mon portfolio</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Je suis un ébéniste passionné qui aime créer des meubles uniques et fonctionnels.</p>
+    </section>
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="project">
+        <h3>Table de jeux avec échiquier damier</h3>
+        <img src="images/table_de_jeux.jpg">
+        <p>Cette table de jeux est équipée d'un échiquier damier intégré et de deux tiroirs pour ranger les pièces. Elle a été réalisée dans le cadre de mon CAP2 ébénisterie.</p>
+      </div>
+      <div class="project">
+        <h3>Cabinet avec abattant et motif en placage</h3>
+        <img src="images/cabinet.jpg">
+        <p>Le cabinet est un meuble polyvalent qui comporte un abattant avec un motif en placage. Il a été réalisé dans le cadre de mon projet de chez d'oeuvre pour mon BMA1 ébénisterie.</p>
+      </div>
+      <div class="project">
+        <h3>Autres réalisations</h3>
+        <img src="images/autres.jpg">
+        <p>J'ai également réalisé divers autres projets pendant mes stages, notamment des meubles sur mesure et des restaurations de meubles anciens.</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Vous pouvez me contacter à l'adresse suivante : monemail@mail.com</p>
+    </section>
+  </body>
+</html>
